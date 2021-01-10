@@ -16,10 +16,10 @@ shows the help menu
 ```
 dcltr org
 ```
-Will display the info for which files would be moved to which folder. Additional prompts would follow to accept or to deny the changes.
+The script will run on the current working directory and will display the info for which files would be moved to which folder. Additional prompts would follow to accept or to deny the changes.
 After accepting the change, files will be moved and you can check the directory, if not satisfied you can undo the changes. Undo prompt will be displayed after files are moved.
 
 ```
 dcltr org -d <path-to-directory>
 ```
-With option `-d` you can provide the path to directory where to run the `dcltr`
+With option `-d` you can provide the path to directory where to run the `dcltr`. 
