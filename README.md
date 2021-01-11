@@ -23,3 +23,9 @@ After accepting the change, files will be moved and you can check the directory,
 dcltr org -d <path-to-directory>
 ```
 With option `-d` you can provide the path to directory where to run the `dcltr`. 
+
+##  Notes
+* If there are multiple files with same name in the destination directory then the file that is being moved will be renamed
+    * For instance if destination has `first.txt` and new file being moved has same name and extension then it will be named `first_1.txt`
+* All dot files in the directory would be moved to the new directory named `misc`
+* Tested on NodeJS 12.6 and 14.12.0

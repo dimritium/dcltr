@@ -1,26 +1,23 @@
 {
   "name": "dcltr",
   "version": "1.0.0",
-  "description": "",
+  "description": "A directory organizer which move files to folders based on its extension name",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shubhankar Dimri",
   "license": "ISC",
   "bin": {
     "dcltr": "./bin/index.js"
   },
+  "bugs": {
+    "url": "https://github.com/dimritium/dcltr/issues"
+  },
+  "homepage": "https://github.com/dimritium/dcltr",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "command-line-args": "^5.1.1",
-    "command-line-usage": "^6.1.1",
     "table": "^6.0.4",
     "yargs": "^16.2.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/node": "^7.12.6"
   }
 }
