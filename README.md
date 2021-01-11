@@ -3,9 +3,8 @@
 It was created particularly to organize the Downloads folder.
 
 ## Installation
-* Downlod the project and in root repo perform the following:
 ```
-npm install -g
+npm i -g dcltr
 ```
 
 ## Usage
