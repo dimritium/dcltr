@@ -1,6 +1,6 @@
 {
   "name": "dcltr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A directory organizer which move files to folders based on its extension name",
   "main": "bin/index.js",
   "scripts": {
